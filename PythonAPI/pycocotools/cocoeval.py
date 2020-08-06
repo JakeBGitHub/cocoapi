@@ -418,7 +418,7 @@ class COCOeval:
         }
         toc = time.time()
         print('DONE (t={:0.2f}s).'.format( toc-tic))
-        print('Hello World')
+        print('RECALL: {}'.format(self.eval))
 
     def summarize(self):
         '''
